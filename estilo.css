@@ -1,0 +1,81 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+.nav li p {
+  display: block;
+  background-color: #2e2efe;
+  color: #fff;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  width: 150px;
+}
+.nav li p:hover {
+  background-color: #08088a;
+  color: #f2f5a9;
+}
+.nav > li {
+  float: left;
+}
+.nav li ul {
+  display: none;
+  position: absolute;
+  width: 150px;
+}
+.nav li:hover > ul {
+  display: block;
+}
+
+/* body */
+#Inicio p {
+  color: #145267;
+  font-size: 20px;
+  font-weight: 600;
+}
+#store {
+  margin-top: 10px;
+  width: 700px;
+  height: 50px;
+  background: #08298a;
+  border: 1px solid #bdbdbd;
+  border-radius: 10px;
+}
+
+#store p {
+  width: 40px;
+  height: 25px;
+  padding: 2px;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  background: #40ff00;
+  text-align: center;
+  margin-left: 5px;
+}
+
+/* Contenedores */
+.Conthcl {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.Conthcc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Sombras */
+.Smbr1 {
+  box-shadow: inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+.Smbr2 {
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}

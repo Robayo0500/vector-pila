@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lista doble circular</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <script type="text/javascript" src="funciones.js"></script>
+  </head>
+  <body>
+    <div id="Inicio" style="width: 700px; text-align: center">
+      <p>Lista doblemente enlazada circular</p>
+    </div>
+    <div id="store" class="Conthcl Smbr2"></div>
+    <div style="margin-top: 10px">
+      <p id="Msg0">Tamaño: 0</p>
+      <!-- Se añade un mensaje para mostrar el tamaño de la lista -->
+    </div>
+    <br />
+    <div style="width: 700px; text-align: center">
+      <ul class="nav">
+        <li>
+          <p>Agregar</p>
+          <ul>
+            <li onclick="addInicio()"><p>Al inicio</p></li>
+            <li onclick="addFinal()"><p>Al final</p></li>
+            <li onclick="addPosicion()"><p>Por posición</p></li>
+            <!-- Se vuelve a agregar la opción de agregar por posición -->
+          </ul>
+        </li>
+        <li>
+          <p>Eliminar</p>
+          <ul>
+            <li onclick="delInicio()"><p>Al inicio</p></li>
+            <li onclick="delFinal()"><p>Al final</p></li>
+            <li onclick="delPosicion()"><p>Por posición</p></li>
+            <!-- Se agrega la opción de eliminar por posición -->
+            <li onclick="delContenido()"><p>Por contenido</p></li>
+            <!-- Se agrega la opción de eliminar por contenido -->
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
